@@ -1,0 +1,23 @@
+# Node.js dependencies
+/node_modules/
+
+# Build output (Vite specific)
+/dist
+/build
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Vite development server files
+.vite/
+
+# Logs
+*.log
+
+# Misc
+npm-debug.log
+
+# Editor settings
+.vscode/
+.idea/
