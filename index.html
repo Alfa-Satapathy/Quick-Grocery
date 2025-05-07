@@ -1,0 +1,578 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick Groceries</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">
+        <h1>QuickGrocery</h1>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Special Offers</a></li>
+          <li><a href="#">Recipes</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="search-bar">
+        <form>
+          <input type="text" placeholder="Search for products...">
+          <button type="submit" class="search-btn">Search</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero-banner">
+    <div class="container">
+      <div class="hero-content">
+        <h2>Fresh Groceries Delivered to Your Door</h2>
+        <p>Save time and shop with convenience. Get fresh produce, dairy, and more.</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Top Categories Section -->
+  <section class="top-categories">
+    <div class="container">
+      <h2 class="section-title">Top Categories</h2>
+      <div class="categories-grid">
+        <a href="#" class="category-card">
+          <img src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Fruits">
+          <div class="category-name">Fruits</div>
+        </a>
+        <a href="#" class="category-card">
+          <img src="https://images.unsplash.com/photo-1566385101042-1a0aa0c1268c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Vegetables">
+          <div class="category-name">Vegetables</div>
+        </a>
+        <a href="#" class="category-card">
+          <img src="https://images.unsplash.com/photo-1559561821-8f196aa1e6b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Dairy">
+          <div class="category-name">Dairy</div>
+        </a>
+        <a href="#" class="category-card">
+          <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Bakery">
+          <div class="category-name">Bakery</div>
+        </a>
+        <a href="#" class="category-card">
+          <img src="https://images.unsplash.com/photo-1606674556490-c2832eb1cd69?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Meat">
+          <div class="category-name">Meat</div>
+        </a>
+        <a href="#" class="category-card">
+          <img src="https://images.unsplash.com/photo-1617057270251-281e0e056c0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Organic">
+          <div class="category-name">Organic</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Catalogue Section -->
+  <section class="product-catalogue">
+    <div class="container">
+      <h2 class="section-title">Our Products</h2>
+      <div class="category-filter">
+        <ul>
+          <li><a href="#" class="active">All</a></li>
+          <li><a href="#">Fruits</a></li>
+          <li><a href="#">Vegetables</a></li>
+          <li><a href="#">Dairy</a></li>
+          <li><a href="#">Bakery</a></li>
+          <li><a href="#">Meat</a></li>
+        </ul>
+      </div>
+      
+      <div class="product-grid">
+        <!-- Product 1 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Fresh Organic Apples">
+            <span class="badge">Organic</span>
+          </div>
+          <div class="product-info">
+            <h3>Fresh Organic Apples</h3>
+            <p class="price">$3.99 <span>per lb</span></p>
+            <p class="category">Fruits</p>
+            <a href="#" class="btn btn-small">Add to Cart</a>
+          </div>
+        </div>
+        
+        <!-- Product 2 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1583663845486-5e66c1601da4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Organic Broccoli">
+            <span class="badge">Organic</span>
+          </div>
+          <div class="product-info">
+            <h3>Organic Broccoli</h3>
+            <p class="price">$2.49 <span>each</span></p>
+            <p class="category">Vegetables</p>
+            <a href="#" class="btn btn-small">Add to Cart</a>
+          </div>
+        </div>
+        
+        <!-- Product 3 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1518492104633-130d0cc84637?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Farm Fresh Eggs">
+          </div>
+          <div class="product-info">
+            <h3>Farm Fresh Eggs</h3>
+            <p class="price">$4.99 <span>dozen</span></p>
+            <p class="category">Dairy</p>
+            <a href="#" class="btn btn-small">Add to Cart</a>
+          </div>
+        </div>
+        
+        <!-- Product 4 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Whole Grain Bread">
+          </div>
+          <div class="product-info">
+            <h3>Whole Grain Bread</h3>
+            <p class="price">$3.29 <span>loaf</span></p>
+            <p class="category">Bakery</p>
+            <a href="#" class="btn btn-small">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Order & Cart Section -->
+  <section class="order-section">
+    <div class="container">
+      <h2 class="section-title">Your Cart</h2>
+      <div class="cart-container">
+        <div class="cart-items">
+          <div class="cart-item">
+            <img src="https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Fresh Organic Apples">
+            <div class="item-details">
+              <h3>Fresh Organic Apples</h3>
+              <p class="item-price">$3.99 <span>per lb</span></p>
+            </div>
+            <div class="quantity-control">
+              <button class="qty-btn">-</button>
+              <span class="qty">1</span>
+              <button class="qty-btn">+</button>
+            </div>
+            <p class="item-total">$3.99</p>
+            <button class="remove-btn">✕</button>
+          </div>
+          
+          <div class="cart-item">
+            <img src="https://images.unsplash.com/photo-1583663845486-5e66c1601da4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Organic Broccoli">
+            <div class="item-details">
+              <h3>Organic Broccoli</h3>
+              <p class="item-price">$2.49 <span>each</span></p>
+            </div>
+            <div class="quantity-control">
+              <button class="qty-btn">-</button>
+              <span class="qty">2</span>
+              <button class="qty-btn">+</button>
+            </div>
+            <p class="item-total">$4.98</p>
+            <button class="remove-btn">✕</button>
+          </div>
+        </div>
+        
+        <div class="cart-summary">
+          <h3>Order Summary</h3>
+          <div class="summary-row">
+            <span>Subtotal</span>
+            <span>$8.97</span>
+          </div>
+          <div class="summary-row">
+            <span>Shipping</span>
+            <span>$3.99</span>
+          </div>
+          <div class="summary-row total">
+            <span>Total</span>
+            <span>$12.96</span>
+          </div>
+          <a href="#" class="btn btn-full">Checkout Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section class="blog-section">
+    <div class="container">
+      <h2 class="section-title">Food & Health Blog</h2>
+      <div class="blog-container">
+        <!-- Blog Post 1 -->
+        <article class="blog-card">
+          <div class="blog-image">
+            <img src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Superfoods">
+          </div>
+          <div class="blog-content">
+            <h3>10 Superfoods to Boost Your Immunity</h3>
+            <p class="date">May 5, 2025</p>
+            <p class="excerpt">Discover the power of these amazing foods that can help strengthen your immune system naturally.</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </article>
+        
+        <!-- Blog Post 2 -->
+        <article class="blog-card">
+          <div class="blog-image">
+            <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Cooking Vegetables">
+          </div>
+          <div class="blog-content">
+            <h3>Easy Ways to Include More Vegetables in Your Diet</h3>
+            <p class="date">May 2, 2025</p>
+            <p class="excerpt">Simple tips and tricks to incorporate more vegetables into your daily meals without sacrificing flavor.</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </article>
+        
+        <!-- Blog Post 3 -->
+        <article class="blog-card">
+          <div class="blog-image">
+            <img src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Sustainable Shopping">
+          </div>
+          <div class="blog-content">
+            <h3>Sustainable Grocery Shopping Guide</h3>
+            <p class="date">April 27, 2025</p>
+            <p class="excerpt">Learn how to make eco-friendly choices when shopping for groceries and reduce your environmental impact.</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- App Promotion -->
+  <section class="app-promotion">
+    <div class="container">
+      <div class="app-promo-content">
+        <div class="app-info">
+          <h2>Get Our Mobile App</h2>
+          <p>Shop anytime, anywhere with our convenient mobile app. Get exclusive offers and track your orders in real-time.</p>
+          <ul class="app-features">
+            <li>Easy ordering process</li>
+            <li>Exclusive mobile-only offers</li>
+            <li>Order tracking</li>
+            <li>Personalized recommendations</li>
+          </ul>
+          <div class="app-buttons">
+            <a href="#" class="app-button">
+              <span>Download on the</span>
+              <strong>App Store</strong>
+            </a>
+            <a href="#" class="app-button">
+              <span>Get it on</span>
+              <strong>Google Play</strong>
+            </a>
+          </div>
+        </div>
+        <div class="app-image">
+          <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Mobile App">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Page Section -->
+  <section class="product-page">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="#">Home</a> &gt; <a href="#">Fruits</a> &gt; <span>Fresh Organic Apples</span>
+      </div>
+      
+      <div class="product-detail">
+        <div class="product-gallery">
+          <div class="main-image">
+            <img src="https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Fresh Organic Apples">
+          </div>
+          <div class="thumbnail-images">
+            <img src="https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Apple Close Up" class="selected">
+            <img src="https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Apple Slices">
+            <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Apple Tree">
+          </div>
+        </div>
+        
+        <div class="product-info-detail">
+          <div class="badge product-badge">Organic</div>
+          <h1>Fresh Organic Apples</h1>
+          <div class="product-rating">
+            <span class="stars">★★★★★</span>
+            <span class="rating-count">(127 reviews)</span>
+          </div>
+          <p class="product-price">$3.99 <span class="unit">per lb</span></p>
+          
+          <div class="product-description">
+            <p>Sweet and crisp organic apples grown in local farms without the use of harmful pesticides. These apples are perfect for eating fresh, baking, or juicing.</p>
+            
+            <div class="product-features">
+              <h3>Product Features:</h3>
+              <ul>
+                <li>100% organic and pesticide-free</li>
+                <li>Locally sourced from sustainable farms</li>
+                <li>Rich in fiber and essential vitamins</li>
+                <li>Sweet and crisp texture</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="product-purchase">
+            <div class="quantity">
+              <label>Quantity:</label>
+              <div class="quantity-selector">
+                <button class="qty-btn">-</button>
+                <input type="text" value="1" class="qty-input">
+                <button class="qty-btn">+</button>
+              </div>
+              <span class="stock">In Stock</span>
+            </div>
+            
+            <div class="product-actions">
+              <button class="btn btn-large">Add to Cart</button>
+              <button class="wishlist-btn">❤</button>
+            </div>
+          </div>
+          
+          <div class="delivery-info">
+            <p><strong>Delivery:</strong> Free delivery on orders over $50</p>
+            <p><strong>Availability:</strong> Usually ships within 24 hours</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="product-tabs">
+        <ul class="tab-links">
+          <li class="active"><a href="#description">Description</a></li>
+          <li><a href="#nutrition">Nutrition Info</a></li>
+          <li><a href="#reviews">Reviews (127)</a></li>
+        </ul>
+        
+        <div class="tab-content">
+          <div id="description" class="tab active">
+            <h3>Product Description</h3>
+            <p>Our organic apples are grown in orchards using sustainable farming practices. The apples are hand-picked at peak ripeness to ensure the best flavor and nutritional value. We work directly with local farmers who avoid the use of synthetic pesticides and fertilizers, resulting in delicious, crisp apples that are good for both you and the environment.</p>
+            <p>These versatile apples are excellent for eating fresh, adding to salads, baking into pies, or making homemade applesauce. Their natural sweetness means you can reduce added sugar in your recipes.</p>
+          </div>
+          
+          <div id="nutrition" class="tab">
+            <h3>Nutrition Information</h3>
+            <table class="nutrition-table">
+              <tr>
+                <th>Nutrient</th>
+                <th>Amount per 100g</th>
+              </tr>
+              <tr>
+                <td>Calories</td>
+                <td>52 kcal</td>
+              </tr>
+              <tr>
+                <td>Carbohydrates</td>
+                <td>14g</td>
+              </tr>
+              <tr>
+                <td>Fiber</td>
+                <td>2.4g</td>
+              </tr>
+              <tr>
+                <td>Sugar</td>
+                <td>10g</td>
+              </tr>
+              <tr>
+                <td>Protein</td>
+                <td>0.3g</td>
+              </tr>
+              <tr>
+                <td>Vitamin C</td>
+                <td>8% of Daily Value</td>
+              </tr>
+            </table>
+          </div>
+          
+          <div id="reviews" class="tab">
+            <h3>Customer Reviews</h3>
+            <div class="review">
+              <div class="reviewer">
+                <strong>Sarah M.</strong>
+                <span class="review-date">April 28, 2025</span>
+              </div>
+              <div class="rating">★★★★★</div>
+              <p>These are the most delicious apples I've ever tasted! Super crisp and sweet. Will definitely buy again.</p>
+            </div>
+            
+            <div class="review">
+              <div class="reviewer">
+                <strong>John D.</strong>
+                <span class="review-date">April 15, 2025</span>
+              </div>
+              <div class="rating">★★★★☆</div>
+              <p>Great flavor, and I appreciate that they're organic. Some apples were a bit bruised on arrival, but overall good quality.</p>
+            </div>
+            
+            <a href="#" class="btn btn-small">See All Reviews</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="related-products">
+        <h2>You May Also Like</h2>
+        <div class="product-grid small-grid">
+          <!-- Related Product 1 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1519162808019-7de1683fa2ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Organic Avocados">
+              <span class="badge">Organic</span>
+            </div>
+            <div class="product-info">
+              <h3>Organic Avocados</h3>
+              <p class="price">$1.99 <span>each</span></p>
+              <a href="#" class="btn btn-small">Add to Cart</a>
+            </div>
+          </div>
+          
+          <!-- Related Product 2 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1550258987-190a2d41a8ba?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Red Grapes">
+            </div>
+            <div class="product-info">
+              <h3>Red Grapes</h3>
+              <p class="price">$4.49 <span>per lb</span></p>
+              <a href="#" class="btn btn-small">Add to Cart</a>
+            </div>
+          </div>
+          
+          <!-- Related Product 3 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1571771894286-0b867ce0d93a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Fresh Strawberries">
+              <span class="badge">Seasonal</span>
+            </div>
+            <div class="product-info">
+              <h3>Fresh Strawberries</h3>
+              <p class="price">$3.99 <span>pint</span></p>
+              <a href="#" class="btn btn-small">Add to Cart</a>
+            </div>
+          </div>
+          
+          <!-- Related Product 4 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1557800636-894a64c1696f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Organic Oranges">
+              <span class="badge">Organic</span>
+            </div>
+            <div class="product-info">
+              <h3>Organic Oranges</h3>
+              <p class="price">$5.99 <span>bag of 6</span></p>
+              <a href="#" class="btn btn-small">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Membership Form -->
+  <section class="membership-section">
+    <div class="container">
+      <div class="membership-content">
+        <div class="membership-info">
+          <h2>Join Our Membership Program</h2>
+          <p>Become a member today and enjoy special benefits:</p>
+          <ul>
+            <li>Exclusive weekly deals</li>
+            <li>Member-only discounts</li>
+            <li>Free delivery on orders over $50</li>
+            <li>Early access to special offers</li>
+          </ul>
+        </div>
+        <div class="membership-form-container">
+          <form class="membership-form">
+            <h3>Register Now</h3>
+            <div class="form-group">
+              <label for="fullname">Full Name</label>
+              <input type="text" id="fullname" name="fullname" placeholder="Your full name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Your email address" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+            </div>
+            <div class="form-group">
+              <label for="address">Address</label>
+              <textarea id="address" name="address" placeholder="Your full address" required></textarea>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" id="terms" name="terms" required>
+              <label for="terms">I agree to the terms and conditions</label>
+            </div>
+            <button type="submit" class="btn btn-full">Register</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>Quick Grocery</h3>
+          <p>Your one-stop shop for fresh, quality groceries delivered to your doorstep.</p>
+          <div class="social-links">
+            <a href="#" class="social-link">Facebook</a>
+            <a href="#" class="social-link">Instagram</a>
+            <a href="#" class="social-link">Twitter</a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="#">All Products</a></li>
+            <li><a href="#">Fresh Produce</a></li>
+            <li><a href="#">Dairy & Eggs</a></li>
+            <li><a href="#">Bakery</a></li>
+            <li><a href="#">Meat & Seafood</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Customer Service</h4>
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Shipping Policy</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <address>
+            123 Grocery Lane<br>
+            Fresh City, FC 12345<br>
+            <a href="tel:+11234567890">Phone: (123) 456-7890</a><br>
+            <a href="mailto:info@quickgrocery.com">Email: info@quickgrocery.com</a>
+          </address>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 Quick Grocery. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
