@@ -35,14 +35,21 @@
 
   <!-- Hero Banner -->
   <section class="hero-banner">
-    <div class="container">
-      <div class="hero-content">
-        <h2>Fresh Groceries Delivered to Your Door</h2>
-        <p>Save time and shop with convenience. Get fresh produce, dairy, and more.</p>
-        <a href="#" class="btn">Shop Now</a>
-      </div>
+  <div class="carousel">
+    <div class="overlay"></div> <!-- NEW: Filter Layer -->
+    <div class="carousel-slide slide1"></div>
+    <div class="carousel-slide slide2"></div>
+    <div class="carousel-slide slide3"></div>
+  </div>
+  <div class="container">
+    <div class="hero-content">
+      <h2>Fresh Groceries Delivered to Your Door</h2>
+      <p>Save time and shop with convenience. Get fresh produce, dairy, and more.</p>
+      <a href="#" class="btn">Shop Now</a>
     </div>
-  </section>
+  </div>
+</section>
+
   
   <!-- Top Categories Section -->
   <section class="top-categories">
@@ -58,7 +65,7 @@
           <div class="category-name">Vegetables</div>
         </a>
         <a href="#" class="category-card">
-          <img src="https://images.unsplash.com/photo-1559561821-8f196aa1e6b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Dairy">
+          <img src="Images/tasty-healthy-dairy-products.jpg" alt="Dairy">
           <div class="category-name">Dairy</div>
         </a>
         <a href="#" class="category-card">
@@ -66,13 +73,13 @@
           <div class="category-name">Bakery</div>
         </a>
         <a href="#" class="category-card">
-          <img src="https://images.unsplash.com/photo-1606674556490-c2832eb1cd69?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Meat">
+          <img src="Images/raw-meat-table.jpg" alt="Meat">
           <div class="category-name">Meat</div>
         </a>
-        <a href="#" class="category-card">
-          <img src="https://images.unsplash.com/photo-1617057270251-281e0e056c0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Organic">
+        <!-- <a href="#" class="category-card">
+          <img src="Images/vegetables-table-garden-sunlight.jpg" alt="Organic">
           <div class="category-name">Organic</div>
-        </a>
+        </a> -->
       </div>
     </div>
   </section>
@@ -110,7 +117,7 @@
         <!-- Product 2 -->
         <div class="product-card">
           <div class="product-image">
-            <img src="https://images.unsplash.com/photo-1583663845486-5e66c1601da4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Organic Broccoli">
+            <img src="Images/broccoli-florets.webp" alt="Organic Broccoli">
             <span class="badge">Organic</span>
           </div>
           <div class="product-info">
@@ -455,12 +462,25 @@
           <!-- Related Product 3 -->
           <div class="product-card">
             <div class="product-image">
-              <img src="https://images.unsplash.com/photo-1571771894286-0b867ce0d93a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Fresh Strawberries">
+              <img src="Images/close-up-strawberries-hanging-greenhouse.jpg" alt="Fresh Strawberries">
               <span class="badge">Seasonal</span>
             </div>
             <div class="product-info">
               <h3>Fresh Strawberries</h3>
               <p class="price">$3.99 <span>pint</span></p>
+              <a href="#" class="btn btn-small">Add to Cart</a>
+            </div>
+          </div>
+
+          <!-- Related Product 3 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="Images/still-life-delicious-pineapple.jpg" alt="Fresh Strawberries">
+              <span class="badge">Seasonal</span>
+            </div>
+            <div class="product-info">
+              <h3>Fresh Pineapple</h3>
+              <p class="price">$4.99 <span>pint</span></p>
               <a href="#" class="btn btn-small">Add to Cart</a>
             </div>
           </div>
@@ -570,7 +590,7 @@
         </div>
       </div>
       <div class="copyright">
-        <p>&copy; 2025 Quick Grocery. All rights reserved.</p>
+        <p>&copy; 2025 Quick Grocery.</p>
       </div>
     </div>
   </footer>
