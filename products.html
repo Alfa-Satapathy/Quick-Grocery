@@ -6,6 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Products - Quick Groceries</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/footer.css">
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" 
+        integrity="sha512-Xy5dWYyHgkpTzpiw+hIb2zT0qShNfYvJ4ZcH5Ych0rIscgS8mG3Of4H1F+Y+a7qZzA6bDzYwzZ6GybphNRNV7A==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
   <!-- Header Section -->
@@ -161,50 +169,137 @@
   <!-- Footer -->
   <footer class="site-footer">
     <div class="container">
+
+      <!--  MAIN FOOTER COLUMNS  -->
       <div class="footer-content">
+
+        <!-- About Column -->
         <div class="footer-column">
           <h3>Quick Grocery</h3>
           <p>Your one-stop shop for fresh, quality groceries delivered to your doorstep.</p>
+
+          <!-- Social Links -->
           <div class="social-links">
-            <a href="#" class="social-link">Facebook</a>
-            <a href="#" class="social-link">Instagram</a>
-            <a href="#" class="social-link">Twitter</a>
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
           </div>
+
+          <!-- Slogan -->
+          <div class="footer-slogan">Thanks for shopping with us! 🛒</div>
         </div>
+
+        <!-- Shop Column -->
         <div class="footer-column">
           <h4>Shop</h4>
-          <ul>
-            <li><a href="products.html">All Products</a></li>
-            <li><a href="products.html">Fresh Produce</a></li>
-            <li><a href="products.html">Dairy & Eggs</a></li>
-            <li><a href="products.html">Bakery</a></li>
-            <li><a href="products.html">Meat & Seafood</a></li>
+          <ul class="icon-list">
+            <li><a href="#"><i class="fas fa-apple-alt"></i> Fresh Produce</a></li>
+            <li><a href="#"><i class="fas fa-cheese"></i> Dairy & Eggs</a></li>
+            <li><a href="#"><i class="fas fa-bread-slice"></i> Bakery</a></li>
+            <li><a href="#"><i class="fas fa-drumstick-bite"></i> Meat & Seafood</a></li>
+            <li><a href="#"><i class="fas fa-shopping-bag"></i> All Products</a></li>
           </ul>
         </div>
+
+        <!-- Customer Service Column -->
         <div class="footer-column">
           <h4>Customer Service</h4>
           <ul>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Contact Us</a></li>
             <li><a href="#">FAQs</a></li>
             <li><a href="#">Shipping Policy</a></li>
             <li><a href="#">Return Policy</a></li>
             <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
           </ul>
+          <div class="footer-hours">
+            <p><strong>Hours:</strong><br>Mon–Sat: 9AM – 6PM</p>
+          </div>
         </div>
+
+        <!-- Contact Column -->
         <div class="footer-column">
           <h4>Contact</h4>
           <address>
             123 Grocery Lane<br>
             Fresh City, FC 12345<br>
-            <a href="tel:+11234567890">Phone: (123) 456-7890</a><br>
-            <a href="mailto:info@quickgrocery.com">Email: info@quickgrocery.com</a>
+            <a href="tel:+11234567890">(123) 456-7890</a><br>
+            <a href="mailto:info@quickgrocery.com">info@quickgrocery.com</a>
           </address>
+
+          <!-- Trust Badges -->
+          <div class="trust-badges">
+            <span><i class="fas fa-shield-alt"></i> Secure Payments</span>
+            <span><i class="fas fa-truck"></i> Fast Delivery</span>
+            <span><i class="fas fa-check-circle"></i> 100% Fresh</span>
+            <span><i class="fas fa-box-open"></i> Easy Returns</span>
+          </div>
         </div>
-      </div>
+
+      </div> 
+
+      <!--  EXTRA INFO SECTIONS  -->
+
+      <!-- Additional Footer Sections in Proper Columns -->
+<div class="footer-content">
+  <!-- Awards & Recognition -->
+  <div class="footer-column">
+    <h4>Awards & Recognition</h4>
+    <div class="recognition-item">
+      <i class="fas fa-award"></i> Best Grocery Award 2024
+    </div>
+    <div class="recognition-item">
+      <i class="fas fa-leaf"></i> Certified Organic Supplier
+    </div>
+  </div>
+
+  <!-- Freshness Guarantee -->
+  <div class="footer-column">
+    <h4>Fresh Guarantee</h4>
+    <div class="footer-weather">
+      <i class="fas fa-cloud-sun"></i> Rain or shine, freshness always!
+    </div>
+  </div>
+
+  <!-- Customer Praise -->
+  <div class="footer-column">
+    <h4>What Customers Say</h4>
+    <blockquote class="footer-quote">"Quick Grocery always delivers the best!" — A happy customer</blockquote>
+  </div>
+
+  <!-- Delivery Cities -->
+  <div class="footer-column">
+    <h4>We Deliver To</h4>
+    <ul class="deliver-cities">
+      <li><i class="fas fa-map-marker-alt"></i> Delhi</li>
+      <li><i class="fas fa-map-marker-alt"></i> Mumbai</li>
+      <li><i class="fas fa-map-marker-alt"></i> Bangalore</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Language Selector and Scroll Button -->
+<div class="footer-tools">
+  <div class="language-selector">
+    <label for="language">Language:</label>
+    <select id="language">
+      <option>English</option>
+      <option>Hindi</option>
+      <option>Tamil</option>
+      <option>Telugu</option>
+    </select>
+  </div>
+  <button onclick="window.scrollTo({top: 0, behavior: 'smooth'});" class="scroll-top-inline">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+</div>
+
+      <!--  COPYRIGHT  -->
       <div class="copyright">
         <p>&copy; 2025 Quick Grocery. All rights reserved.</p>
       </div>
-    </div>
+
+    </div> 
   </footer>
 </body>
 </html>
