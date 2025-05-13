@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Quick Groceries</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">
+        <h1>QuickGrocery</h1>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="offers.html">Special Offers</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="search-bar">
+        <form>
+          <input type="text" placeholder="Search for products...">
+          <button type="submit" class="search-btn">Search</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contact Header -->
+  <section class="hero-banner"
+    style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');">
+    <div class="container">
+      <div class="hero-content">
+        <h2>Contact Us</h2>
+        <p>We're here to help with any questions or concerns</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-container">
+        <div class="contact-info">
+          <h2>Get In Touch</h2>
+          <p>We'd love to hear from you. Please fill out the form or use the contact information below.</p>
+
+          <div class="info-item">
+            <h3>Address</h3>
+            <p>123 Grocery Lane<br>Fresh City, FC 12345</p>
+          </div>
+
+          <div class="info-item">
+            <h3>Phone</h3>
+            <p><a href="tel:+11234567890">(123) 456-7890</a></p>
+          </div>
+
+          <div class="info-item">
+            <h3>Email</h3>
+            <p><a href="mailto:info@quickgrocery.com">info@quickgrocery.com</a></p>
+          </div>
+
+          <div class="info-item">
+            <h3>Hours</h3>
+            <p>Monday - Friday: 9am - 8pm<br>Saturday: 9am - 6pm<br>Sunday: 10am - 5pm</p>
+          </div>
+
+          <div class="social-links">
+            <a href="#" class="social-link">Facebook</a>
+            <a href="#" class="social-link">Instagram</a>
+            <a href="#" class="social-link">Twitter</a>
+          </div>
+        </div>
+
+        <div class="contact-form-container">
+          <h2>Send a Message</h2>
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="Your email address" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="Your phone number">
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject" required>
+                <option value="">Select a subject</option>
+                <option value="order">Order Inquiry</option>
+                <option value="product">Product Information</option>
+                <option value="delivery">Delivery Issue</option>
+                <option value="return">Returns/Refunds</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" placeholder="Write your message here..."
+                required></textarea>
+            </div>
+
+            <div class="form-check">
+              <input type="checkbox" id="privacy" name="privacy" required>
+              <label for="privacy">I agree to the privacy policy</label>
+            </div>
+
+            <button type="submit" class="btn btn-full">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Map Section -->
+      <div class="map-container">
+        <h2 class="section-title">Find Us</h2>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.34203407197!2d78.24323352502226!3d17.412281016555596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1747129062628!5m2!1sen!2sin"
+            style="border:0;" width="1150" height="400" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+
+      <!-- FAQ Section -->
+      <div class="faq-section">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-container">
+          <div class="faq-item">
+            <h3>How do I track my order?</h3>
+            <p>You can track your order by logging into your account and navigating to the order history section. There,
+              you'll find real-time updates on your order status.</p>
+          </div>
+          <div class="faq-item">
+            <h3>What are your delivery hours?</h3>
+            <p>We deliver from 9am to 9pm, seven days a week. You can select your preferred delivery window during
+              checkout.</p>
+          </div>
+          <div class="faq-item">
+            <h3>How do I return a product?</h3>
+            <p>If you're not satisfied with a product, please contact our customer service within 24 hours of delivery,
+              and we'll arrange a return or refund.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Do you offer same-day delivery?</h3>
+            <p>Yes, we offer same-day delivery for orders placed before 2pm, subject to availability in your area.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>Quick Grocery</h3>
+          <p>Your one-stop shop for fresh, quality groceries delivered to your doorstep.</p>
+          <div class="social-links">
+            <a href="#" class="social-link">Facebook</a>
+            <a href="#" class="social-link">Instagram</a>
+            <a href="#" class="social-link">Twitter</a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="products.html">All Products</a></li>
+            <li><a href="products.html">Fresh Produce</a></li>
+            <li><a href="products.html">Dairy & Eggs</a></li>
+            <li><a href="products.html">Bakery</a></li>
+            <li><a href="products.html">Meat & Seafood</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Customer Service</h4>
+          <ul>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Shipping Policy</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <address>
+            123 Grocery Lane<br>
+            Fresh City, FC 12345<br>
+            <a href="tel:+11234567890">Phone: (123) 456-7890</a><br>
+            <a href="mailto:info@quickgrocery.com">Email: info@quickgrocery.com</a>
+          </address>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 Quick Grocery. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
