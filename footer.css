@@ -1,4 +1,4 @@
-/* ===================== GLOBAL RESET ===================== */
+
 * {
   margin: 0;
   padding: 0;
@@ -33,7 +33,7 @@ a:hover {
   padding: 0 20px;
 }
 
-/* ===================== FOOTER BASE ===================== */
+/*  FOOTER BASE  */
 .site-footer {
   background: linear-gradient(to right, #1d1d1d, #2d2d2d);
   color: white;
@@ -55,7 +55,7 @@ a:hover {
   margin-bottom: 20px;
 }
 
-/* ===================== FOOTER LAYOUT ===================== */
+/*  FOOTER LAYOUT */
 .footer-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -160,7 +160,7 @@ a:hover {
 }
 
 
-/* ===================== SOCIAL LINKS ===================== */
+/*  SOCIAL LINKS  */
 .social-links {
   display: flex;
   gap: 15px;
@@ -178,7 +178,7 @@ a:hover {
   transform: scale(1.2);
 }
 
-/* ===================== FOOTER TOOLS ===================== */
+/*  FOOTER TOOLS  */
 .footer-tools {
   display: flex;
   justify-content: space-between;
@@ -202,7 +202,7 @@ a:hover {
   border: none;
 }
 
-/* ===================== EXTRA FEATURES ===================== */
+/*  EXTRA FEATURES  */
 .recognition-item {
   display: flex;
   align-items: center;
@@ -297,7 +297,7 @@ a:hover {
   color: #bbb;
 }
 
-/* ===================== SCROLL TO TOP ===================== */
+/*  SCROLL TO TOP  */
 .scroll-top-inline {
   background-color: #4CAF50;
   color: white;
@@ -319,7 +319,7 @@ a:hover {
   transform: scale(1.1);
 }
 
-/* ===================== COPYRIGHT ===================== */
+/*  COPYRIGHT  */
 .copyright {
   text-align: center;
   border-top: 1px solid #555;
@@ -327,7 +327,7 @@ a:hover {
   color: #aaa;
 }
 
-/* ===================== ANIMATIONS ===================== */
+/*  ANIMATIONS  */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -349,7 +349,7 @@ a:hover {
   transform: scale(1.05);
 }
 
-/* ===================== RESPONSIVE ===================== */
+/*  RESPONSIVE  */
 @media (max-width: 768px) {
   .footer-content {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
