@@ -57,10 +57,16 @@ a:hover {
 
 /*  FOOTER LAYOUT */
 .footer-content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 30px;
-  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.footer-column {
+  flex: 1 1 200px;
+  min-width: 200px;
 }
 
 .footer-column h3,
@@ -146,18 +152,7 @@ a:hover {
   transform: translateY(0);
   z-index: 10;
 }
-.footer-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px;
-  margin-bottom: 30px;
-}
 
-.footer-column {
-  flex: 1 1 200px;
-  min-width: 200px;
-}
 
 
 /*  SOCIAL LINKS  */
@@ -217,7 +212,7 @@ a:hover {
   font-size: 1.2rem;
 }
 
-.footer-badges {
+/* .footer-badges {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
@@ -228,7 +223,7 @@ a:hover {
   height: 40px;
   border-radius: 6px;
   box-shadow: 0 0 6px rgba(255, 255, 255, 0.1);
-}
+} */
 
 .footer-weather {
   display: flex;
