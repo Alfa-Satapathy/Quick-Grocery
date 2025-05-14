@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Meta and Title -->
+  <!-- Meta Information -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Page Title -->
   <title>Products - Quick Groceries</title>
-
+  
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/footer.css">
 
-  <!-- Font Awesome for Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" 
-        integrity="sha512-Xy5dWYyHgkpTzpiw+hIb2zT0qShNfYvJ4ZcH5Ych0rIscgS8mG3Of4H1F+Y+a7qZzA6bDzYwzZ6GybphNRNV7A==" 
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Font Awesome CDN for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
   <!-- Header Section -->
   <header class="site-header">
     <div class="container">
-      <!-- Logo -->
       <div class="logo">
         <h1>QuickGrocery</h1>
       </div>
-      <!-- Navigation Menu -->
       <nav class="main-nav">
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -33,7 +31,6 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
-      <!-- Search Bar -->
       <div class="search-bar">
         <form>
           <input type="text" placeholder="Search for products...">
@@ -43,12 +40,11 @@
     </div>
   </header>
 
-  <!-- Product Catalogue Section -->
+  <!-- Product Catalogue -->
   <section class="product-catalogue">
     <div class="container">
       <h2 class="section-title">Our Products</h2>
-      <!-- Category Filter -->
-      <div class="category-filter"></div>
+      <div class="category-filter">
         <ul>
           <li><a href="#" class="active">All</a></li>
           <li><a href="#">Fruits</a></li>
@@ -59,11 +55,10 @@
         </ul>
       </div>
       
-      <!-- Product Grid -->
       <div class="product-grid">
-        <!-- Product Cards -->
+        <!-- Product 1 -->
         <div class="product-card">
-          <div class="product-image"></div>
+          <div class="product-image">
             <img src="https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Fresh Organic Apples">
             <span class="badge">Organic</span>
           </div>
@@ -74,36 +69,237 @@
             <a href="#" class="btn btn-small">Add to Cart</a>
           </div>
         </div>
-        <!-- Additional Product Cards -->
-        <!-- ... -->
+        
+        <!-- Product 2 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="Images/broccoli-florets.webp" alt="Organic Broccoli">
+            <span class="badge">Organic</span>
+          </div>
+          <div class="product-info">
+            <h3>Organic Broccoli</h3>
+            <p class="price">$2.49 <span>each</span></p>
+            <p class="category">Vegetables</p>
+            <a href="#" class="btn btn-small">Add to Cart</a>
+          </div>
+        </div>
+        
+        <!-- Product 3 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="Images/egg.jpg" alt="Farm Fresh Eggs">
+          </div>
+          <div class="product-info">
+            <h3>Farm Fresh Eggs</h3>
+            <p class="price">$4.99 <span>dozen</span></p>
+            <p class="category">Dairy</p>
+            <a href="#" class="btn btn-small">Add to Cart</a>
+          </div>
+        </div>
+        
+        <!-- Product 4 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Whole Grain Bread">
+          </div>
+          <div class="product-info">
+            <h3>Whole Grain Bread</h3>
+            <p class="price">$3.29 <span>loaf</span></p>
+            <p class="category">Bakery</p>
+            <a href="#" class="btn btn-small">Add to Cart</a>
+          </div>
+        </div>
+        
+        <!-- Product 5 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="Images/strawberries.jpg" alt="Organic Strawberries">
+            <span class="badge">Organic</span>
+          </div>
+          <div class="product-info">
+            <h3>Organic Strawberries</h3>
+            <p class="price">$5.99 <span>basket</span></p>
+            <p class="category">Fruits</p>
+            <a href="#" class="btn btn-small">Add to Cart</a>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="Images/banana.jpg" alt="Organic Strawberries">
+            <span class="badge">Organic</span>
+          </div>
+          <div class="product-info">
+            <h3>Banana</h3>
+            <p class="price">$5.99 <span>basket</span></p>
+            <p class="category">Fruits</p>
+            <a href="#" class="btn btn-small">Add to Cart</a>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1547514701-42782101795e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Organic Strawberries">
+            <span class="badge">Organic</span>
+          </div>
+          <div class="product-info">
+            <h3>Organic Oranges</h3>
+            <p class="price">$5.99 <span>basket</span></p>
+            <p class="category">Fruits</p>
+            <a href="#" class="btn btn-small">Add to Cart</a>
+          </div>
+        </div>
+        
+        <!-- Product 6 -->
+        <div class="product-card">
+          <div class="product-image">
+            <img src="Images/fish.jpg" alt="Fresh Salmon Fillet">
+          </div>
+          <div class="product-info">
+            <h3>Fresh Salmon Fillet</h3>
+            <p class="price">$12.99 <span>per lb</span></p>
+            <p class="category">Meat & Seafood</p>
+            <a href="#" class="btn btn-small">Add to Cart</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Footer Section -->
+  <!-- Footer -->
   <footer class="site-footer">
     <div class="container">
-      <!-- Footer Columns -->
+
+      <!--  MAIN FOOTER COLUMNS  -->
       <div class="footer-content">
+
         <!-- About Column -->
-        <div class="footer-column"></div>
+        <div class="footer-column">
           <h3>Quick Grocery</h3>
           <p>Your one-stop shop for fresh, quality groceries delivered to your doorstep.</p>
+
           <!-- Social Links -->
           <div class="social-links">
             <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
             <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
             <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
           </div>
+
+          <!-- Slogan -->
+          <div class="footer-slogan">Thanks for shopping with us! 🛒</div>
         </div>
-        <!-- Additional Footer Columns -->
-        <!-- ... -->
-      </div>
-      <!-- Copyright -->
+
+        <!-- Shop Column -->
+        <div class="footer-column">
+          <h4>Shop</h4>
+          <ul class="icon-list">
+            <li><a href="#"><i class="fas fa-apple-alt"></i> Fresh Produce</a></li>
+            <li><a href="#"><i class="fas fa-cheese"></i> Dairy & Eggs</a></li>
+            <li><a href="#"><i class="fas fa-bread-slice"></i> Bakery</a></li>
+            <li><a href="#"><i class="fas fa-drumstick-bite"></i> Meat & Seafood</a></li>
+            <li><a href="#"><i class="fas fa-shopping-bag"></i> All Products</a></li>
+          </ul>
+        </div>
+
+        <!-- Customer Service Column -->
+        <div class="footer-column">
+          <h4>Customer Service</h4>
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Shipping Policy</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+          </ul>
+          <div class="footer-hours">
+            <p><strong>Hours:</strong><br>Mon–Sat: 9AM – 6PM</p>
+          </div>
+        </div>
+
+        <!-- Contact Column -->
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <address>
+            123 Grocery Lane<br>
+            Fresh City, FC 12345<br>
+            <a href="tel:+11234567890">(123) 456-7890</a><br>
+            <a href="mailto:info@quickgrocery.com">info@quickgrocery.com</a>
+          </address>
+
+          <!-- Trust Badges -->
+          <div class="trust-badges">
+            <span><i class="fas fa-shield-alt"></i> Secure Payments</span>
+            <span><i class="fas fa-truck"></i> Fast Delivery</span>
+            <span><i class="fas fa-check-circle"></i> 100% Fresh</span>
+            <span><i class="fas fa-box-open"></i> Easy Returns</span>
+          </div>
+        </div>
+
+      </div> 
+
+      <!--  EXTRA INFO SECTIONS  -->
+
+      <!-- Additional Footer Sections in Proper Columns -->
+<div class="footer-content">
+  <!-- Awards & Recognition -->
+  <div class="footer-column">
+    <h4>Awards & Recognition</h4>
+    <div class="recognition-item">
+      <i class="fas fa-award"></i> Best Grocery Award 2024
+    </div>
+    <div class="recognition-item">
+      <i class="fas fa-leaf"></i> Certified Organic Supplier
+    </div>
+  </div>
+
+  <!-- Freshness Guarantee -->
+  <div class="footer-column">
+    <h4>Fresh Guarantee</h4>
+    <div class="footer-weather">
+      <i class="fas fa-cloud-sun"></i> Rain or shine, freshness always!
+    </div>
+  </div>
+
+  <!-- Customer Praise -->
+  <div class="footer-column">
+    <h4>What Customers Say</h4>
+    <blockquote class="footer-quote">"Quick Grocery always delivers the best!" — A happy customer</blockquote>
+  </div>
+
+  <!-- Delivery Cities -->
+  <div class="footer-column">
+    <h4>We Deliver To</h4>
+    <ul class="deliver-cities">
+      <li><i class="fas fa-map-marker-alt"></i> Delhi</li>
+      <li><i class="fas fa-map-marker-alt"></i> Mumbai</li>
+      <li><i class="fas fa-map-marker-alt"></i> Bangalore</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Language Selector and Scroll Button -->
+<div class="footer-tools">
+  <div class="language-selector">
+    <label for="language">Language:</label>
+    <select id="language">
+      <option>English</option>
+      <option>Hindi</option>
+      <option>Tamil</option>
+      <option>Telugu</option>
+    </select>
+  </div>
+  <button onclick="window.scrollTo({top: 0, behavior: 'smooth'});" class="scroll-top-inline">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+</div>
+
+      <!--  COPYRIGHT  -->
       <div class="copyright">
         <p>&copy; 2025 Quick Grocery. All rights reserved.</p>
       </div>
-    </div>
+
+    </div> 
   </footer>
 </body>
 </html>
